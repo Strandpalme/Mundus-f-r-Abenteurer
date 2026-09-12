@@ -278,6 +278,15 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: ../quartz-infobox
+    enabled: true
+    options:
+      matchType: Settlement
+      imageField: image
+    order: 50
+    layout:
+      position: before body
+      priority: 60
 layout:
   groups:
     toolbar:
